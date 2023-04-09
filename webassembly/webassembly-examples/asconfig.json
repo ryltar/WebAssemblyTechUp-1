@@ -17,6 +17,7 @@
     }
   },
   "options": {
+    "initialMemory": 256,
     "exportRuntime": true,
     "bindings": "esm"
   }
