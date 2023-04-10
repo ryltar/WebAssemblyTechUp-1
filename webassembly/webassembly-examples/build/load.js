@@ -18,8 +18,7 @@ const env = {
 
     abort: () => {},
 
-    consoleLog: (value) => { console.log(value) }
-
+    "console.log": (value) => console.log(value)
 }
 
 export const { instance } = await WebAssembly.instantiate(typedArray, {
